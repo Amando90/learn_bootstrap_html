@@ -1,0 +1,115 @@
+<html>
+	
+	<head>
+		<title>Bootstrap</title>
+
+		  <meta charset="utf-8">
+		  <meta htttp-equiv="X-UA-Compatible" content="IE-edge">
+		  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  		  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+		  <style>
+
+		  	.navbar {
+		  		background-color: #2980b9;
+		  		padding-top: 5px;
+		  		padding-bottom: 5px;
+		  		border: 0;
+		  		border-radius: 0;
+		  		margin-bottom: 0;
+		  		letter-spacing: 2px;
+		  	}
+
+			.nav.navbar-nav.navbar-right li a {
+			    color: #ecf0f1;
+			}
+
+			 .navbar-nav  li a:hover {
+      			color: #bdc3c7 !important;
+  			}
+
+  			.navbar-default .navbar-nav > .active{
+    			color: #000;
+   				background: #d65c14;
+			}
+ 			.navbar-default .navbar-nav > .active > a, 
+ 			.navbar-default .navbar-nav > .active > a:hover, 
+ 			.navbar-default .navbar-nav > .active > a:focus {
+      			color: #000;
+     			background: #2980b9;
+ 			}
+
+  			.container-fluid {
+  				margin-top: 10px;
+  				margin-left: 0px;
+  				margin-right: 0px;
+  			}
+
+
+		  </style>		
+	</head>
+	
+	<body>
+
+		<nav class="navbar navbar-default navbar-custom">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="navbar-brand" style="color: #ecf0f1;">Training Bootstrap</a>
+				</div>
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active" style="color: #2980b9;"><a href="index.html">Home</a></li>
+					<li><a href="profile.html">Profile</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<div class="container-fluid">
+			
+			<div class="row">
+
+				<div class="col-sm-2">
+					<img class="img-circle" src="img/profpic.jpg" width="200" height="auto">
+				</div>
+
+				<div class="col-sm-2">
+					<br><br><br>
+					<h4 style="margin: 0;">Amando</h4>
+					<h1 style="margin: 0;">Demas</h1>
+				</div>
+
+				<div class="col-sm-8">
+					<form class="form-horizontal" role="form">
+						<div class="form-group">
+							<label class="control-label col-sm-2">Email:</label>
+							<div class="col-sm-6">
+								<input type="text" class="form-control" id="email">
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label class="control-label col-sm-2">Messages:</label>
+							<div class="col-sm-6">
+								<textarea class="form-control" rows="5" id="messages"></textarea>
+							</div>
+						</div>
+
+						<div class="form-group">
+					      <div class="col-sm-offset-2 col-sm-10">
+					        <button type="submit" class="btn btn-default">Submit</button>
+					      </div>
+						</div>
+					</form>
+				</div>
+				
+			</div>
+
+		</div>
+
+	</body>
+
+</html>
